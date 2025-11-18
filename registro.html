@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>registro</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">inicio</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Registro</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" maxlength="30" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="asunto" maxlength="10" required>
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="number" id="telefono" max="10" min="1" required>
+                </div>
+                <div>
+                    <label for="ciudad">Ciudad</label>
+                    <select name="ciudad" id="ciudad">ciudad
+                        <option value="1">Bucaramanga</option>
+                        <option value="2">Lebrija</option>
+                        <option value="3">Giron</option>
+                        <option value="4">Piedecuesta</option>
+                        <option value="5">Floridablanca</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion" required> </input>
+                </div>
+                <div>
+                    <label for="programar">Programar</label>
+                    <input type="checkbox" name="gustos[]" id="programar">
+                </div>
+                <div>
+                    <label for="musica">Musica</label>
+                    <input type="checkbox" name="gustos[]" id="musica">
+                </div>
+                <div>
+                    <label for="Dormir">Dormir</label>
+                    <input type="checkbox" name="gustos[]" id="Dormir">
+                </div>
+                <div>
+                    <label for="estudiar">Estudiar</label>
+                    <input type="checkbox" name="gustos[]" id="estudiar">
+                </div>
+                <div>
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="genero" id="hombre">
+                    <div>
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="genero" id="mujer">
+                    </div>
+                    <div>
+                        <label for="otro">Otro</label>
+                        <input type="radio" name="genero" id="otro">
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+
+</html>
